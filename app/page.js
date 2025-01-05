@@ -12,13 +12,14 @@ const page = () => {
   //const images = [ udrivelogo,adPic, adPic2,adPic3 ];
   return (
     <div className='homeElem'>
+
       <Image src={udrivelogo} id='appLogo' />
       <h1>Need a vehicle?</h1>
       <h2>
         Unlock the roads with Udrive vehicles.
         Rent the premium vehicles and rule the roads.
       </h2>
-      <div class="vehicle">
+      {/* <div class="vehicle">
     <div class="body"></div>
     <div class="roof"></div>
     <div class="window"></div>
@@ -26,12 +27,12 @@ const page = () => {
     <div class="wheel front-right"></div>
     <div class="wheel rear-left"></div>
     <div class="wheel rear-right"></div>
-  </div>
+  </div> */}
       {/* <div>  */}
          {/* <ImageSlider images={images} /> </div> */}
 
       
-
+<Footer/>
     </div>
   )
 }

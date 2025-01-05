@@ -2,8 +2,7 @@
 
 import nodemailer from 'nodemailer';
 
-// import 'dotenv/config'; // Load environment variables
-// require('dotenv').config();
+
 
 // Create a transporter object using SMTP
 const transporter = nodemailer.createTransport({
@@ -20,22 +19,23 @@ export async function POST(request) {
     
     
     const data = await request.json();
-    //console.log('Received form data:', data);
-    const { username, email, phoneNum, aadharNum, vehicle, days, address } = data.info;
+    console.log('Received form data:', data);
+    const { ownername, email, phone, vehicle, address } = data.info;
+    console.log(email);
     
     
 
-    const emailSubject = 'Car booking request';
+    const emailSubject = 'Car attaching request';
     const emailText = `
-      Hello Boss!! Another car booking order
+      Hello Boss!! Someone wants to attach his car
       
-      ${username},
-      :
+      ${ownername},
+      
       - Email: ${email}
-      - Phone: ${phoneNum}
-      - Aadhar Number: ${aadharNum}
+      - Phone: ${phone}
+      - 
       - Vehicle: ${vehicle}
-      - Days: ${days}
+      - 
       - Address: ${address}
     `;
 

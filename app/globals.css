@@ -58,10 +58,11 @@ li {
 select,
 option {
   width: 40vw;
+  margin: 5px;
   height: 5vh;
-  border-top: 0px;
+  /* border-top: 0px;
   border-left: 0px;
-  border-right: 0px;
+  border-right: 0px; */
   background-color: black;
   color: white;
 }
@@ -88,44 +89,7 @@ button {
   flex-direction: column;
   border: 1px solid green;
 }
-.slidePic{
-  width: 500px;
-  height: 300px;
-}
-.slider {
-  position: relative;
-  width: 100%;
-  max-width: 600px;
-  margin: auto;
-  overflow: hidden;
-}
 
-.slides {
-  display: flex;
-  transition: transform 0.5s ease-in-out;
-}
-
-.slide {
-  min-width: 100%;
-  box-sizing: border-box;
-}
-
-.navigation {
-  position: absolute;
-  top: 50%;
-  width: 100%;
-  display: flex;
-  justify-content: space-between;
-  transform: translateY(-50%);
-}
-
-.navigation button {
-  background-color: rgba(0, 0, 0, 0.5);
-  border: none;
-  color: white;
-  padding: 10px;
-  cursor: pointer;
-}
 
 .carInfo {
   width: 40vw;
@@ -203,8 +167,8 @@ button {
 }
 
 #appLogo {
-  width: 30vw;
-  height: 50vh;
+  width: 20vw;
+  height: 40vh;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -240,13 +204,13 @@ button {
 
   form {
     width: 90vw;
-    height: 105vh;
-    padding: 2px;
+    height: 90vh;
+    /* padding: 2px; */
     display: flex;
     flex-direction: column;
     justify-content: center;
     color: black;
-
+    transform: translate(2vw,2vh);
     align-self: center;
 
   }
@@ -298,8 +262,9 @@ button {
   .data,
   option,
   select {
+    margin: 5px;
     height: 5vh;
-    width: 80vw;
+    width: 70vw;
     color: white;
   }
 
@@ -353,6 +318,14 @@ button {
     display: inline;
     margin: 0px;
     padding: 0px;
+  }
+  .footer{
+    margin-top: 2vh;
+  }
+  #socialmedia{
+    margin-top: 35px;
+    width: 50px;
+    height: 50px;
   }
 }
 .vehicle {
