@@ -12,7 +12,7 @@ const page = () => {
 
   
     <div className="container">
-    <p>For better experience and ca bookings switch to desktop mode </p>
+    <p>For better experience in  car viewing and bookings switch to desktop mode if using phone </p>
       <Head>
         <title>udrive | Your Trusted Car Rental</title>
         <meta name="description" content="Your trusted partner in car rentals" />
