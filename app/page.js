@@ -1,39 +1,51 @@
-import Link from 'next/link'
+import Image from 'next/image';
 import React from 'react'
-import Footer from './Footer'
-import Image from 'next/image'
-import udrivelogo from './UdriveImages/Applogo.jpg'
-import adPic from './UdriveImages/15.png'
-import adPic2 from './UdriveImages/adPic2.jpg'
-import adPic3 from './UdriveImages/9.png'
-
+import Head from 'next/head';
+import applog from './UdriveImages/Applogo.jpg'
+import Footer from './Footer';
 
 const page = () => {
-  //const images = [ udrivelogo,adPic, adPic2,adPic3 ];
+
   return (
-    <div className='homeElem'>
 
-      <Image src={udrivelogo} id='appLogo' />
-      <h1>Need a vehicle?</h1>
-      <h2>
-        Unlock the roads with Udrive vehicles.
-        Rent the premium vehicles and rule the roads.
-      </h2>
-      {/* <div class="vehicle">
-    <div class="body"></div>
-    <div class="roof"></div>
-    <div class="window"></div>
-    <div class="wheel front-left"></div>
-    <div class="wheel front-right"></div>
-    <div class="wheel rear-left"></div>
-    <div class="wheel rear-right"></div>
-  </div> */}
-      {/* <div>  */}
-         {/* <ImageSlider images={images} /> </div> */}
 
+
+  
+    <div className="container">
+      <Head>
+        <title>udrive | Your Trusted Car Rental</title>
+        <meta name="description" content="Your trusted partner in car rentals" />
+      </Head>
       
-<Footer/>
+      <header className="header">
+        
+      <Image src={applog} width={300} height={300}/>
+        <h1 className="title">Welcome to udrive</h1>
+        <p> Your trusted partner in car rentals. Explore our wide range of vehicles and services to suit all your travel needs. <br/>
+        Contact us at :- +91 8109112179, Address:- Saket nagar, BDA complex bhopal, Bhopal, MP, 462025
+        </p>
+     
+      <main className="main">
+      <div className="fading-text">U-drive cars</div> <br/>
+       
+      </main>
+      
+   
+      </header>
+      <div className='aboutUs'>
+        <h3>About us</h3>
+        <p>We are leading car renting professionals from Bhopal, India. We have all type of cars for each and every ocassions and functions. Also for your trips. We provide bhaukaal, personality representative cars for each kind of person.</p>
+      </div>
+      {/* <footer className="footer">
+        &copy; 2025 udrive. All rights reserved.
+      </footer> */}
+      <Footer/>
     </div>
+ 
+
+
+
+     
   )
 }
 
