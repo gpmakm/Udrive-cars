@@ -39,6 +39,8 @@ ul {
 nav {
  
   opacity: 1;
+  z-index: 1000;
+  position: relative;
 }
 a,.links {
   text-decoration: none;
