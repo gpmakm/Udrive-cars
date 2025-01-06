@@ -12,16 +12,7 @@ const Book_a_car = () => {
     const [vehicle, setVehicle] = useState('');
     const [days, setDays] = useState('');
     const [address, setAddress] = useState('');
-    const [buttonText, setButtonText] = useState('Book the car'); // New state for button text
-    // let info={
-    //     username:username,
-    //     email:email,
-    //     phoneNum:phoneNum,
-    //     aadharNum:aadharNum,
-    //     vehicle:vehicle,
-    //     days:days,
-    //     address:address
-    // }
+    const [buttonText, setButtonText] = useState('Book the car'); // New state 
 
    
   const handleSubmit = async (e) => {
@@ -91,12 +82,28 @@ const Book_a_car = () => {
         <div className="field">
             <select name="vehicle" title='vehicle' id="vehicleName" onChange={(e)=>{setVehicle(e.target.value)}}>
               <option value="Select">Select</option>
-                <option value="Scarpio S">Scorpio S - Rs. 4999/- per day</option>
+                <option value="Scarpio S">Scorpio N - Rs. 4999/- per day</option>
                 <option value="XUV 300(Sunroof)">XUV 300 Sunroof - Rs. 2799/- per day</option>
                 <option value="Tata Safari">TATA Safari - Rs. 4999/- per day </option>
                 <option value="Hyundai"> Hyundai - Rs. 1999/- per day</option>
-                <option value="Thar">Thar</option>
-                <option value="Renault">Renault</option>
+                <option value="Thar">Thar - Rs. 4199/- per day</option>
+                <option value="Breeza">Breeza - Rs. 2599/- per day</option>
+                <option value="Wagonr">Wagonr - Rs.1799/- per day </option>
+                <option value="Nexon">Nexon - Rs. 2999/- per day</option>
+                <option value="I20">i20 - Rs. 2699/- per day</option>
+                <option value="Swift">Swift - Rs. 2099/- per day</option>
+                <option value="Aura">Aura - Rs. 2199/- per day</option>
+                <option value="Scorpio-S10">Scorpio-S10 - Rs.3499/- per day</option>
+                <option value="Venue">Venue - Rs. 2750/- per day</option>
+                <option value="Creta">Creta - Rs. 3299/-</option>
+                <option value="Verna">Verna - Rs. 4999/- per day</option>
+                <option value="Baleno">Baleno - Rs. 2500/- per day</option>
+                <option value="ScorpioS3">Scorpio-S3 - Rs.3999/- per day</option>
+                <option value="fronx">Fronx - Rs. 2500/- per day</option>
+                <option value="Grand Vitara">Grand vitara - Rs. 3200/- per day</option>
+                <option value="Dzire">Swift dezire - Rs. 2200/- per day</option>
+                <option value="Sonet">Sonet - Rs. 2800/- per day</option>
+                <option value="Seltos">Seltos - Rs. 3500/- per day</option>
                 
             </select>
         </div>
