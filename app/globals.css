@@ -457,4 +457,7 @@ opacity: 0.8;
   .step {
     display: inline;
   }
+  .container{
+    margin-top: 8px;
+  }
 }
