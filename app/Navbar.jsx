@@ -7,7 +7,7 @@ const Navbar = () => {
   return (
     
    <nav>
-    <span id="nav">Udrive car rental</span>
+    <span id="nav">TripOnGo car rental</span>
     <ul>
         <li><Link href={"/"}>Home</Link></li>
         <li> <Link href={"/attach-your-car"}>Attach-car</Link> </li>
