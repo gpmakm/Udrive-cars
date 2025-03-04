@@ -13,20 +13,20 @@ const page = () => {
   
     <div className="container">
       <Head>
-        <title>udrive | Your Trusted Car Rental</title>
+        <title>TripOnGo | Your Trusted Car Rental</title>
         <meta name="description" content="Your trusted partner in car rentals" />
       </Head>
       
       <header className="header">
         
       <Image src={applog} width={300} height={300}/>
-        <h1 className="title">Welcome to udrive</h1>
+        <h1 className="title">Welcome to TripOnGo</h1>
         <p> Your trusted partner in car rentals. Explore our wide range of vehicles and services to suit all your travel needs. <br/>
         Contact us at :- +91 8109112179, +918919105119, Address:- Saket nagar, BDA complex bhopal, Bhopal, MP, 462025
         </p>
      
       <main className="main">
-      <div className="fading-text">U-drive cars</div> <br/>
+      <div className="fading-text">TripOnGo cars</div> <br/>
        
       </main>
       
