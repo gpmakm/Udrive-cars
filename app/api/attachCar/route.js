@@ -42,7 +42,7 @@ export async function POST(request) {
     // Send email
     const mailOptions = {
       from:"esikshatutorialsakarsh@gmail.com" , // Sender address
-      to: "udrive.carrental01@gmail.com", // Recipient address
+      to: "echoudhary704@gmail.com", // Recipient address
       subject: emailSubject, // Email subject
       text: emailText, // Email body (plain text)
     };
