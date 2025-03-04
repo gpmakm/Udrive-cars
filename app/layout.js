@@ -6,7 +6,7 @@ import Navbar from "./Navbar";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Udrive car rental",
+  title: "TripOnGo car rental",
   description: "Rent our cars for your trips",
   
 };
