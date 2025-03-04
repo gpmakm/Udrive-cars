@@ -1,7 +1,7 @@
 import Image from 'next/image';
 import React from 'react'
 import Head from 'next/head';
-import applog from './UdriveImages/Applogo.jpg'
+import applog from './Design.png'
 import Footer from './Footer';
 
 const page = () => {
