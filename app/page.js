@@ -39,7 +39,7 @@ const page = () => {
       {/* <footer className="footer">
         &copy; 2025 udrive. All rights reserved.
       </footer> */}
-      <Footer/>
+      
     </div>
  
 
